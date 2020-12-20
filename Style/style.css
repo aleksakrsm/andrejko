@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color:#6FAE70 ;
+}
+body{
+    background-color: #003D5B ;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+#naslov{
+    text-align: center;
+    color:#EDAE49;
+    padding: 1em;
+}
+.podnaslov{
+    text-align: center;
+    color:#D1495B;
+}
+section {
+   text-align: center;
+}
+section div{
+    display: inline-block;
+    margin-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    border-radius: 2em;
+    background-color: #30638E;
+    width: 50%;
+} 
+ #prijavljeni ol{
+    text-align: left;
+}  
+table{
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+table thead tr th{
+    background-color: #6FAE70 ; 
+    color: white;
+}
+table tbody tr td{
+    border-bottom: solid 1px #6FAE70 ;
+    padding: 5px;
+}
+table tfoot tr td{
+    border-bottom: solid 1px #6FAE70 ;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: left;
+}
+input text {
+width: 100%;
+border-width: 2px;
+border-color: #6FAE70 ;
+border-top-style: hidden;
+border-left-style: hidden;
+border-right-style: hidden;
+background: transparent;
+}
+input[type=text], input[type=password], input[type=submit], input[type=reset] {
+    width: 100%;
+    border-width: 2px;
+    border-color: #6FAE70 ;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    background: transparent;
+}
+textarea{
+    width: 100%;
+    border-width: 2px;
+    border-color: #6FAE70 ;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    background: transparent;
+}
+select{
+    width: 100%;
+    border-width: 2px;
+    border-color: #6FAE70 ;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    background: transparent;
+}
+#smer{
+    margin-bottom: 1em;
+}
+input[type=submit], input[type=reset]{
+    margin-top: 1em;
+    border-width: 2px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: #6FAE70 ;
+    border-radius: 2em;
+    padding: 10px;
+}
+input[type="submit"]:hover{
+    background-color:#6FAE70 ;
+    color: #FFFFFF;
+}
+input[type="reset"]:hover{
+    background-color:#6FAE70 ;
+    color: #FFFFFF;
+}

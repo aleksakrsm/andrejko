@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style/style.css" />
+    <title>Domaći zadatak - treća nedelja</title>
+</head>
+<body>
+    <h1 id="naslov">Takmičenje u rešavanju studije slučaja</h1>
+
+    <section id="prva_sekcija">
+        <div id="prijavljeni">
+            <h2 class="podnaslov">Osnovne informacije o prijavljenim kandidatima</h2>
+            <ol>
+                <strong><li>Petar Petrović</li></strong>
+                <ul>
+                    <li><tt>Treća godina</tt></li>
+                    <li><em>Informacioni sistemi i tehnologije</em></li>
+                </ul>
+                <br/>
+                <strong><li>Jovana Jovanović</li></strong>
+                <ul>
+                    <li><tt>Prva godina</tt></li>
+                    <li><em>Menadžment i organizacija</em></li>
+                </ul>
+                <br/>
+                <strong><li>Marko Marković</li></strong>
+                <ul>
+                    <li><tt>Četvrta godina</tt></li>
+                    <li><em>Operacioni Menadžment</em></li>
+                </ul>
+                <br/>
+                <strong><li>Marina Marinković</li></strong>
+                <ul>
+                    <li><tt>Treća godina</tt></li>
+                    <li><em>Menadžment kvaliteta i standardizacija</em></li>
+                </ul>
+            </ol>
+        </div>
+    </section>
+
+    <section id="druga_sekcija">
+        <div id="faze">
+            <h2 class="podnaslov">Faze takmičenja</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Redni broj faze</th>
+                        <th>Naziv faze</th>
+                        <th>Maksimalan broj poena</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="2" align="center">Ukupno</td>
+                        <td align="center">100</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td rowspan="2" align="center">1.</td>
+                        <td>Kvalifikaciona faza 1</td>
+                        <td rowspan="2" align="center">20</td>
+                    </tr>
+                    <tr>
+                        <td>Kvalifikaciona faza 2</td>
+                    </tr>
+                    <tr>
+                        <td align="center">2.</td>
+                        <td>Polufinale</td>
+                        <td align="center">30</td>
+                    </tr>
+                    <tr>
+                        <td align="center">3.</td>
+                        <td>Finale</td>
+                        <td align="center">50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="treca_sekcija">
+        <div id="prijava">
+            <h2 class="podnaslov">Prijava za takmičenje</h2>
+            <p>Popunjavanjem ove forme se možete prijaviti za naše takmičenje.</p>
+            <form>
+                <label for="ime_prezime" class="block">Ime i prezime: </label>
+                <input type="text" id="ime_prezime"/>
+                <br/>
+                <label for="korisnicko_ime" class="block">Korisnicko ime: </label>
+                <input type="text" id="korisnicko_ime"/>
+                <br/>
+                <label for="sifra" class="block">Šifra: </label>
+                <input type="password" id="sifra"/>
+                <br/>
+                <label for="sifra_potvrda" class="block">Potvrda šifre: </label>
+                <input type="password" id="sifra_potvrda"/>
+                <br/>
+                <label for="smer" class="block">Smer: </label>
+                <select id="smer">
+                    <option value="default" selected="selected" disabled>Izaberite smer</option>
+                    <option value="ISiT">Informacioni sistemi i tehnologije</option>
+                    <optgroup label="Menadžment i organizacija">
+                        <option value="MiO">Menadžment</option>
+                        <option value="OM">Operacioni menadžment</option>
+                        <option value="MKS">Menadžment kvaliteta i standardizacija</option>
+                    </optgroup>
+                </select>
+                <br/>
+                <input id="prva" type="radio" name="godina" value="prva"/> 
+                <label for="prva">Prva godina</label>
+                <br/>
+                <input id="druga" type="radio" name="godina" value="druga"/> 
+                <label for="druga">Druga godina</label>
+                <br/>
+                <input id="treca" type="radio" name="godina" value="treca"/> 
+                <label for="treca">Treća godina</label>
+                <br/>
+                <input id="cetvrta" type="radio" name="godina" value="cetvrta"/> 
+                <label for="cetvrta">Četvrta godina</label>
+                <br/>
+                <label for="motivaciono_pismo" class="block">Motivaciono pismo: </label>
+                <textarea id="motivaciono_pismo" cols="30" rows="1"></textarea>
+                <br/>
+                <input type="submit" value="Prijavi se"/>
+                <input type="reset" value="Resetuj formu"/>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
